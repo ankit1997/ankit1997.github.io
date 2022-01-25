@@ -1,7 +1,174 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <h1>Hello World</h1>
-        <p>I'm hosted with GitHub Pages.</p>
+        <h1 style="font-size: 60px">Ankit Bindal</h1>
+        <p>
+            Welcome to my Github page. Here you will find most of my projects. I
+            am always looking for inspirations for new projects to work on, so
+            hit me up if you have an idea and need a teammate.
+        </p>
+        <hr />
+        <div>
+            <h1>Semi-autonomous self-driving car</h1>
+            <p>
+                Project Links:
+                <a
+                    href="https://github.com/ankit1997/Capstone"
+                    target="_blank"
+                    style="text-decoration: none"
+                    >🔗</a
+                >
+                <a
+                    href="https://github.com/ankit1997/Capstone-self-driving-car"
+                    target="_blank"
+                    style="text-decoration: none"
+                    >🔗</a
+                >
+            </p>
+            <p>
+                In my final year's capstone project, we created a functinoal
+                semi-autonomous self driving car prototype. We built it from
+                scratch including the car and its chassis as well as the
+                end-to-end Convolutional Neural Network model to turn RGB camera
+                input to steering angle and speed. We also introduced an android
+                app in the middle to convert any voice commands from user to
+                override the default behavior (e.g. user can say 'turn left'
+                which will be read by the system and the car will take left turn
+                on next possible left turn).
+            </p>
+            <p>The model generalized well on unique track scenarios.</p>
+            <p>
+                <strong
+                    ><a
+                        href="https://www.tensorflow.org/"
+                        target="_blank"
+                        style="text-decoration: none"
+                        >Tensorflow</a
+                    ></strong
+                >
+                | Data Augmentation | Convolutional Neural Networks | Arduino |
+                Circuit and power design
+            </p>
+            <p>
+                Some glimpses of our work (it was a long and tiring project so
+                we were not able to document it upto the level we expected, but
+                hope this gives a picture of the work we did).
+            </p>
+            <div>
+                <video width="400" height="250" controls>
+                    <source type="video/mp4" src="assets/capstone1.mp4" />
+                </video>
+                <video width="400" height="250" controls>
+                    <source type="video/mp4" src="assets/capstone2.mp4" />
+                </video>
+                <img
+                    src="assets/capstone1.jpg"
+                    width="400px"
+                    height="250px"
+                    onclick="window.open(this.src)"
+                />
+                <img
+                    src="assets/capstone3.jpg"
+                    width="400px"
+                    height="250px"
+                    onclick="window.open(this.src)"
+                />
+                <img
+                    src="assets/capstone2.jpg"
+                    width="400px"
+                    height="250px"
+                    onclick="window.open(this.src)"
+                />
+            </div>
+        </div>
+        <hr />
+        <div>
+            <h1>
+                Fall Detection using CNN
+                <a
+                    href="https://github.com/ankit1997/Fall-Detection-using-CNN"
+                    target="_blank"
+                    style="text-decoration: none"
+                    >🔗</a
+                >
+
+                and RNN
+                <a
+                    href="https://github.com/ankit1997/Fall-Detection-using-RNN"
+                    target="_blank"
+                    style="text-decoration: none"
+                >
+                    🔗</a
+                >
+            </h1>
+            <h3>Detect fall using sensor data (coming from wearable device)</h3>
+            <p>
+                This repository implements a fall detection algorithm based on
+                sensor data (accelerometer and gyroscope) to classify the
+                movements of a person as either `fall` or `non-fall`. The
+                implementation is done using
+                <strong
+                    ><a
+                        href="https://www.tensorflow.org/"
+                        target="_blank"
+                        style="text-decoration: none"
+                        >Tensorflow's</a
+                    ></strong
+                >
+                `layers` API. The implementation uses a Convolutional Neural
+                Network followed by several dense layers. The final output is a
+                single sigmoid score (1 = fall, 0 = non-fall). A Mean squared
+                error metric is used as the loss function and optimized using
+                AdamOptimizer.
+            </p>
+        </div>
+        <hr />
+        <div>
+            <h1>
+                CovidSim
+                <a
+                    href="https://github.com/ankit1997/CovidSim"
+                    target="_blank"
+                    style="text-decoration: none"
+                    >🔗</a
+                >
+            </h1>
+            <h3>A covid-19 simulation game</h3>
+            <p>
+                Covid-19 has taken over the world as we all know (27-06-2020).
+                But even in times like these, we can try to take a different
+                perspective on this and find out what might work to minimize the
+                spread. While many are working towards building a vaccine which
+                may ultimately fix this problem, I thought we all can experiment
+                on what might work to minimize the spread. The main entity being
+                blamed across the world is the government! So I thought we can
+                all be the governments in this mini-game and modify our country
+                policies to minimize the spread.
+            </p>
+            <p>
+                The code is highly optimized and written using
+                <strong
+                    ><a
+                        href="https://numba.pydata.org/"
+                        target="_blank"
+                        style="text-decoration: none"
+                        >Numba</a
+                    ></strong
+                >
+                compiler.
+            </p>
+            <p>
+                Inspired by
+                <strong>
+                    <a
+                        href="https://www.youtube.com/watch?v=gxAaO2rsdIs"
+                        target="_blank"
+                        style="text-decoration: none"
+                        >3b1b animations</a
+                    ></strong
+                >
+            </p>
+            <img src="assets/CovidSim.png" width="1000px" height="500px" />
+        </div>
     </body>
 </html>
