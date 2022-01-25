@@ -1,187 +1,408 @@
 <!DOCTYPE html>
 <html>
-    <body>
+    <head>
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body style="margin: 10px">
         <h1 style="font-size: 60px">Ankit Bindal</h1>
-        <strong>Morgan Stanley | Deutsche Bank | Texas Instruments</strong>
+        <strong
+            >Morgan Stanley - Deutsche Bank - Texas Instruments
+            <a
+                href="https://www.linkedin.com/in/ankit-bindal/"
+                target="_blank"
+                style="text-decoration: none"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-linkedin"
+                    viewBox="0 0 16 16"
+                >
+                    <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                    />
+                </svg>
+            </a>
+            <a
+                href="https://github.com/ankit1997"
+                target="_blank"
+                style="text-decoration: none"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                >
+                    <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    />
+                </svg>
+            </a>
+        </strong>
         <p>
-            Welcome to my Github page. Here you will find most of my projects. I
+            Welcome to my Github page! Here you will find most of my projects. I
             am always looking for inspirations for new projects to work on, so
-            hit me up if you have an idea and need a teammate.
+            hit me up if you have an idea and need a teammate. Happy to be part
+            of any volunteer project as well.
+        </p>
+        <p>
+            Projects:
+            <a href="#Capstone" style="text-decoration: none"
+                >Semi-autonomous Self-driving car</a
+            >
+            <strong>|</strong>
+            <a href="#FallDetection" style="text-decoration: none"
+                >Fall Detection usign CNN and RNN</a
+            >
+            <strong>|</strong>
+            <a href="#CovidSim" style="text-decoration: none"
+                >Covid Simulator</a
+            >
         </p>
         <hr />
         <div>
-            <h1>Semi-autonomous Self-driving Car 🚗</h1>
-            <p>
-                Project Links:
-                <a
-                    href="https://github.com/ankit1997/Capstone"
-                    target="_blank"
-                    style="text-decoration: none"
-                    >🔗</a
-                >
-                <a
-                    href="https://github.com/ankit1997/Capstone-self-driving-car"
-                    target="_blank"
-                    style="text-decoration: none"
-                    >🔗</a
-                >
-            </p>
-            <p>
-                In my final year's capstone project, we created a functinoal
-                semi-autonomous self driving car prototype. We built it from
-                scratch including the car and its chassis as well as the
-                end-to-end Convolutional Neural Network model to turn RGB camera
-                input to steering angle and speed. We also introduced an android
-                app in the middle to convert any voice commands from user to
-                override the default behavior (e.g. user can say 'turn left'
-                which will be read by the system and the car will take left turn
-                on next possible left turn).
-            </p>
-            <p>The model generalized well on unique track scenarios.</p>
-            <p>
-                <strong
-                    ><a
-                        href="https://www.tensorflow.org/"
-                        target="_blank"
-                        style="text-decoration: none"
-                        >Tensorflow</a
-                    ></strong
-                >
-                | Data Augmentation | Convolutional Neural Networks |
-                Speech-to-text (Android built-in) | Arduino | Circuit and power
-                design
-            </p>
-            <p>
-                Below are some glimpses of our work (it was a long and tiring
-                project so we were not able to document it upto the level we
-                expected, but hope this gives a picture of the work we did).
-                P.S. this is not a line-follower :D the car decides steering
-                angle and speed based on RGB input (using neural network model).
-                We also implemented red-light stop sign training.
-            </p>
-            <div>
-                <video width="400" height="250" controls>
-                    <source type="video/mp4" src="assets/capstone1.mp4" />
-                </video>
-                <video width="400" height="250" controls>
-                    <source type="video/mp4" src="assets/capstone2.mp4" />
-                </video>
-                <img
-                    src="assets/capstone1.jpg"
-                    width="400px"
-                    height="250px"
-                    onclick="window.open(this.src)"
-                />
-                <img
-                    src="assets/capstone3.jpg"
-                    width="400px"
-                    height="250px"
-                    onclick="window.open(this.src)"
-                />
-                <img
-                    src="assets/capstone2.jpg"
-                    width="400px"
-                    height="250px"
-                    onclick="window.open(this.src)"
-                />
-            </div>
-        </div>
-        <hr />
-        <div>
-            <h1>
-                Fall Detection using CNN
-                <a
-                    href="https://github.com/ankit1997/Fall-Detection-using-CNN"
-                    target="_blank"
-                    style="text-decoration: none"
-                    >🔗</a
-                >
+            <div class="row">
+                <div class="col">
+                    <div id="Capstone">
+                        <div
+                            class="card border-dark mb-3"
+                            style="width: 100%; padding: 10px"
+                        >
+                            <div>
+                                <img
+                                    src="assets/capstone1.jpg"
+                                    width="400px"
+                                    height="250px"
+                                    onclick="window.open(this.src)"
+                                />
+                                <img
+                                    src="assets/capstone3.jpg"
+                                    width="400px"
+                                    height="250px"
+                                    onclick="window.open(this.src)"
+                                />
+                                <img
+                                    src="assets/capstone2.jpg"
+                                    width="400px"
+                                    height="250px"
+                                    onclick="window.open(this.src)"
+                                />
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Semi-autonomous Self-driving Car 🚗
+                                </h4>
+                                <p>
+                                    Project Links:
+                                    <a
+                                        href="https://github.com/ankit1997/Capstone"
+                                        target="_blank"
+                                        style="text-decoration: none"
+                                        >🔗</a
+                                    >
+                                    <a
+                                        href="https://github.com/ankit1997/Capstone-self-driving-car"
+                                        target="_blank"
+                                        style="text-decoration: none"
+                                        >🔗</a
+                                    >
+                                </p>
+                                <div
+                                    class="card-text"
+                                    style="
+                                        text-align: justify;
+                                        text-justify: inter-word;
+                                    "
+                                >
+                                    <p>
+                                        In my final year's capstone project, we
+                                        created a functinoal semi-autonomous
+                                        self driving car prototype. We built it
+                                        from scratch including the car and its
+                                        chassis as well as the end-to-end
+                                        Convolutional Neural Network model to
+                                        turn RGB camera input to steering angle
+                                        and speed. We also introduced an android
+                                        app in the middle to convert any voice
+                                        commands from user to override the
+                                        default behavior (e.g. user can say
+                                        'turn left' which will be read by the
+                                        system and the car will take left turn
+                                        on next possible left turn).
+                                    </p>
+                                    <p>
+                                        The model generalized well on unique
+                                        track scenarios.
+                                    </p>
+                                    <p>
+                                        <strong
+                                            ><a
+                                                href="https://www.tensorflow.org/"
+                                                target="_blank"
+                                                style="text-decoration: none"
+                                                >Tensorflow</a
+                                            ></strong
+                                        >
+                                        | Data Augmentation | Convolutional
+                                        Neural Networks | Speech-to-text
+                                        (Android built-in) | Arduino | Circuit
+                                        and power design
+                                    </p>
+                                    <strong
+                                        >P.S. this is not a line-follower 😀 the
+                                        car decides steering angle and speed
+                                        based on RGB input (using neural network
+                                        model).</strong
+                                    >
+                                    <p>
+                                        Below are some glimpses of our work (it
+                                        was a long and tiring project so we were
+                                        not able to document it upto the level
+                                        we expected, but hope this gives a
+                                        picture of the work we did). We also
+                                        implemented red-light stop sign
+                                        training.
+                                    </p>
 
-                and RNN
-                <a
-                    href="https://github.com/ankit1997/Fall-Detection-using-RNN"
-                    target="_blank"
-                    style="text-decoration: none"
+                                    <div style="padding: 10px">
+                                        <video
+                                            width="400"
+                                            height="250"
+                                            controls
+                                        >
+                                            <source
+                                                type="video/mp4"
+                                                src="assets/capstone1.mp4"
+                                            />
+                                        </video>
+                                        <video
+                                            width="400"
+                                            height="250"
+                                            controls
+                                        >
+                                            <source
+                                                type="video/mp4"
+                                                src="assets/capstone2.mp4"
+                                            />
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div
+                    class="col"
+                    style="width: 45%; min-width: 600px; padding: 10px"
                 >
-                    🔗</a
+                    <div id="CovidSim">
+                        <div
+                            class="card border-dark mb-3"
+                            style="width: 700px; padding: 10px; height: 800px"
+                        >
+                            <video
+                                height="400px"
+                                controls
+                                muted
+                                class="card-img-top"
+                            >
+                                <source
+                                    type="video/mp4"
+                                    src="assets/CovidSim.mp4"
+                                />
+                            </video>
+                            <div class="card-body">
+                                <h4 class="card-title">CovidSim</h4>
+                                <h6>
+                                    A covid-19 simulation game
+                                    <a
+                                        href="https://github.com/ankit1997/CovidSim"
+                                        target="_blank"
+                                        style="text-decoration: none"
+                                        ><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-github"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path
+                                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                                            /></svg
+                                    ></a>
+                                </h6>
+                                <div
+                                    class="card-text"
+                                    style="
+                                        text-align: justify;
+                                        text-justify: inter-word;
+                                    "
+                                >
+                                    <p>
+                                        Covid-19 has taken over the world as we
+                                        all know (27-06-2020). But even in times
+                                        like these, we can try to take a
+                                        different perspective on this and find
+                                        out what might work to minimize the
+                                        spread. While many are working towards
+                                        building a vaccine which may ultimately
+                                        fix this problem, I thought we all can
+                                        experiment on what might work to
+                                        minimize the spread. The main entity
+                                        being blamed across the world is the
+                                        government! So I thought we can all be
+                                        the governments in this mini-game and
+                                        modify our country policies to minimize
+                                        the spread.
+                                    </p>
+                                    <p>
+                                        The code is
+                                        <strong
+                                            >highly optimized and
+                                            scalable</strong
+                                        >
+                                        over agent population and written using
+                                        <strong
+                                            ><a
+                                                href="https://numba.pydata.org/"
+                                                target="_blank"
+                                                style="text-decoration: none"
+                                                >Numba</a
+                                            ></strong
+                                        >
+                                        compiler.
+                                    </p>
+                                    <p>
+                                        Inspired by
+                                        <strong>
+                                            <a
+                                                href="https://www.youtube.com/watch?v=gxAaO2rsdIs"
+                                                target="_blank"
+                                                style="text-decoration: none"
+                                                >3b1b animations</a
+                                            ></strong
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col"
+                    style="
+                        width: 45%;
+                        min-width: 600px;
+                        padding: 10px;
+                        display: inline-block;
+                    "
                 >
-            </h1>
-            <h3>Detect fall using sensor data (coming from wearable device)</h3>
-            <p>
-                This repository implements a fall detection algorithm based on
-                sensor data (accelerometer and gyroscope) to classify the
-                movements of a person as either `fall` or `non-fall`. The
-                implementation is done using
-                <strong
-                    ><a
-                        href="https://www.tensorflow.org/"
-                        target="_blank"
-                        style="text-decoration: none"
-                        >Tensorflow's</a
-                    ></strong
-                >
-                `layers` API. The implementation uses a Convolutional Neural
-                Network followed by several dense layers. The final output is a
-                single sigmoid score (1 = fall, 0 = non-fall). A Mean squared
-                error metric is used as the loss function and optimized using
-                AdamOptimizer.
-            </p>
-        </div>
-        <hr />
-        <div>
-            <h1>
-                CovidSim
-                <a
-                    href="https://github.com/ankit1997/CovidSim"
-                    target="_blank"
-                    style="text-decoration: none"
-                    >🔗</a
-                >
-            </h1>
-            <h3>A covid-19 simulation game</h3>
-            <p>
-                Covid-19 has taken over the world as we all know (27-06-2020).
-                But even in times like these, we can try to take a different
-                perspective on this and find out what might work to minimize the
-                spread. While many are working towards building a vaccine which
-                may ultimately fix this problem, I thought we all can experiment
-                on what might work to minimize the spread. The main entity being
-                blamed across the world is the government! So I thought we can
-                all be the governments in this mini-game and modify our country
-                policies to minimize the spread.
-            </p>
-            <p>
-                The code is highly optimized and written using
-                <strong
-                    ><a
-                        href="https://numba.pydata.org/"
-                        target="_blank"
-                        style="text-decoration: none"
-                        >Numba</a
-                    ></strong
-                >
-                compiler.
-            </p>
-            <p>
-                Inspired by
-                <strong>
-                    <a
-                        href="https://www.youtube.com/watch?v=gxAaO2rsdIs"
-                        target="_blank"
-                        style="text-decoration: none"
-                        >3b1b animations</a
-                    ></strong
-                >
-            </p>
-            <video width="600" height="300" controls>
-                <source type="video/mp4" src="assets/CovidSim.mp4" />
-            </video>
-            <img
-                src="assets/CovidSim.png"
-                width="400px"
-                height="250px"
-                onclick="window.open(this.src)"
-            />
+                    <div id="FallDetection">
+                        <div
+                            class="card border-dark mb-3"
+                            style="width: 700px; padding: 10px; height: 800px"
+                        >
+                            <video
+                                height="400px"
+                                controls
+                                muted
+                                class="card-img-top"
+                            >
+                                <source
+                                    type="video/mp4"
+                                    src="assets/FallDetection.mp4"
+                                />
+                            </video>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Fall Detection using CNN and RNN
+                                </h4>
+                                <h6>
+                                    Using sensor data, detect if the user is
+                                    falling or not
+                                    <a
+                                        href="https://github.com/ankit1997/Fall-Detection-using-CNN"
+                                        target="_blank"
+                                        style="text-decoration: none"
+                                        ><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-github"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path
+                                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                                            /></svg
+                                    ></a>
+                                    <a
+                                        href="https://github.com/ankit1997/Fall-Detection-using-RNN"
+                                        target="_blank"
+                                        style="text-decoration: none"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-github"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path
+                                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                                            /></svg
+                                    ></a>
+                                </h6>
+                                <div class="card-text">
+                                    <p
+                                        style="
+                                            text-align: justify;
+                                            text-justify: inter-word;
+                                        "
+                                    >
+                                        This repository implements a fall
+                                        detection algorithm based on sensor data
+                                        (accelerometer and gyroscope) to
+                                        classify the movements of a person as
+                                        either `fall` or `non-fall`. The
+                                        implementation is done using
+                                        <strong
+                                            ><a
+                                                href="https://www.tensorflow.org/"
+                                                target="_blank"
+                                                style="text-decoration: none"
+                                                >Tensorflow's</a
+                                            ></strong
+                                        >
+                                        `layers` API. The implementation uses a
+                                        Convolutional Neural Network followed by
+                                        several dense layers. The final output
+                                        is a single sigmoid score (1 = fall, 0 =
+                                        non-fall). A Mean squared error metric
+                                        is used as the loss function and
+                                        optimized using AdamOptimizer.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
